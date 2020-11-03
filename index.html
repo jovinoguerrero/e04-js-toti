@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04 JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h2>Adeus, prompt! Olá <span id="nome">...</span>!</h2>
+
+        <p id="intro">
+            Adicione os seus dados para se registrar. Procure não ser menor de idade ;D.
+            Classificaremos o pessoal em cores e delataremos o mais velho muahaha.
+        </p>
+        <p id="aviso"> </p>
+
+        <form>
+            <label>Nome:</label>
+            <input id="nomeInput" type="text" placeholder="nome" required>
+            <br><br>
+            <label>Sobrenome:</label>
+            <input id="sobrenomeInput" type="text" placeholder="sobrenome" required>
+            <br><br>
+            <label>Idade:</label>
+            <input id="idade" type="number" placeholder="00" required> anos
+            <br><br>
+            <label>Cor favorita:</label>
+            <input id="cor" type="text" placeholder="corzinha" required>
+            <br><br>
+            <button type="submit">Registrar</button>
+        </form>
+
+        <p>Lista de pessoas registradas:</p>
+        <ul id="lista">
+        </ul>
+
+        <p id="maisVelho"></p>
+
+        <ul class="nL"></ul>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

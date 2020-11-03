@@ -1,0 +1,54 @@
+* {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#intro {
+    width: 545px;
+    background-color: peachpuff;
+    color: white;
+    font-size: 16px;
+}
+
+/* Input Nome */
+input[type=text] {
+    color: black;
+    width: 100px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+  }
+input[type="text"]:focus {
+    width: 150px;
+}
+
+/* Input Idade */
+input[type="number"] {
+    width: 50px;
+}
+
+/* Estilizando labels */
+label {
+    color: darkblue;
+    width: 100px;
+    float: left;
+    display: block;
+    /* background-color: #000 */
+}
+
+/* Itens adicionados na lista */
+li {
+    font-style: italic;
+    color: sienna;
+}
+
+/* Estilizando a mensagem aviso */
+#aviso {
+    color: red;
+    /* font-size: 21px; */
+    font-weight: bold;
+    font-style: italic;
+}
+
+#maisVelho p {
+    color: blueviolet;
+}
